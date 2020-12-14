@@ -1,7 +1,15 @@
 ## m8buy Assignment | Aman Saraf
 
 A simple API to create a metro Line for Sydney Metro. The endpoint is `/metro/line`.  
-The endpoint is also accessible using this endpoint : `https://pjxm5irsa8.execute-api.ap-south-1.amazonaws.com/dev/metro/line`
+The endpoint is also accessible using this endpoint : `https://pjxm5irsa8.execute-api.ap-south-1.amazonaws.com/dev/metro/line` 
+with request body as:
+
+```
+{
+ "code": "NWL",
+ "name": "North Western Line"
+}
+```
 
 ## Usage
 
